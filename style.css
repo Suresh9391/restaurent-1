@@ -1,0 +1,133 @@
+.bg-container{
+    background-image:url("https://bsmedia.business-standard.com/_media/bs/img/article/2023-09/14/full/1694673859-4182.jpeg?im=FeatureCrop,size=(826,465)");
+    height:100vh;
+    background-size:cover;
+    width:100%;
+}
+.heading{
+    color:blue;
+    font-size:30px;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+.image {
+    width: 100px;
+    height: 80px;
+  }
+  #navItem1 {
+    color: white;
+    font-family: "Roboto";
+    font-size:22px;
+  }
+  #navItem2 {
+    color: white;
+    font-family: "Roboto";
+    font-size:22px;
+  }
+  #navItem3 {
+    color: white;
+    font-family: "Roboto";
+    font-size:22px;
+  }
+  .menu-container {
+    background-image:linear-gradient(to right,orange,pink);
+    padding: 2rem; 
+  }
+  
+  @media (max-width: 768px) {
+    .menu-container {
+      background-color: #e9ecef; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .menu-container {
+      background-color: #dee2e6; 
+    }
+  }
+  
+  .follow-us-section {
+    background-color: white;
+  }
+  .follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+  }
+  .icon {
+    color: #d0b200;
+    font-size: 35px;
+  }
+  .bg-head{
+    font-family: 'Times New Roman';
+  }
+  .lead{
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+  }
+  .cafe-head{
+    color:#323f4b;
+    font-family:"Roboto";
+    font-size:30px;
+    margin-left:20px;
+    margin-bottom:20px;
+    margin-top:20px;
+  }
+  .card {
+    background: linear-gradient(135deg, #e91e63, #ff9800); /* Vibrant pink to orange gradient */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Add a stronger shadow */
+    color: #fff; /* White text color for contrast */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+
+  .card .card-title {
+    font-size: 1.6rem; /* Larger font for the title */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); /* Stronger text shadow */
+  }
+
+  .card-body {
+    padding: 20px; /* Add padding to the card body */
+  }
+
+  .list-group-item {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    color: #fff; /* White text for items */
+    border: none; /* Remove default border */
+    font-weight: bold; /* Make text bold */
+    border-radius: 5px; /* Rounded corners for list items */
+    margin-bottom: 5px; /* Spacing between items */
+  }
+
+  .list-group-item span {
+    font-weight: 900; /* Bold font for price */
+  }
+
+  .card:hover {
+    transform: translateY(-8px) scale(1.03); /* Lift and scale slightly */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+  }
+  .para{
+    color:#323f4b;
+    font-size:24px;
+    font-family:"Roboto";
+    font-weight:bold;
+    text-align:center;
+  }
+      
+  
